@@ -10,12 +10,17 @@ PROJECT STRUCTURE
 ├── README.md
 ├── Customer Conversions.ipynb      # Full Snowflake ML pipeline (rebuilt from Snowflake's lab)
 ├── streamlit_CCapp.py              # The interactive dashboard (coded with Copilot)
-├── SetupGuide.txt                  # Python dependencies
+├── EnableCrossRegion.sql           # Configuration for cross-region Snowflake access
+├── Setup ACCOUNTADMIN Role.sql     # Role setup
+├── SetupGuide.txt                  # Step-by-step process
 ├── .gitignore                      # Ignore checkpoints, cache, etc.
 ├── assets/                         # Optional: screenshots or visuals
-│   └── dashboard_preview.jpg
-└── data/                           # Synthetic data or schema notes
-
+   └── Dashboard_ML.jpg
+   └── Dashboard_NLP.jpg
+   └── Environment Setup.jpg
+└── data/                           # Synthetic data
+   └── synthetic_review_data_sourcetable.csv
+   └── synthetic_review_data_text.txt
 
 # 🧠 Customer Conversion Lab
 
